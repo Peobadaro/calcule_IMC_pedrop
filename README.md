@@ -1,58 +1,21 @@
-# Calculadora de IMC
 
-Uma aplicação React moderna para calcular o Índice de Massa Corporal (IMC) com um design minimalista inspirado na Apple.
+# ⚖️ Calcule seu IMC - ReactJS
 
-## Funcionalidades
+Este projeto foi desenvolvido como atividade prática do **Módulo 28** do curso de Front-End. Ele é uma **calculadora de IMC com visual minimalista**, inspirada no estilo clean da Apple, que exibe o Índice de Massa Corporal (IMC) com base nos dados inseridos e fornece uma **classificação com faixas de gordura corporal** diferenciadas para homens e mulheres.
 
-- Cálculo de IMC baseado em altura e peso
-- Classificação de gordura corporal para homens e mulheres
-- Interface minimalista e responsiva
-- Animações suaves
-- Suporte a modo escuro
+## 🧠 Funcionalidades
 
-## Como Usar
+- Inserção de **altura (cm)** e **peso (kg)**
+- Seleção de **sexo (masculino ou feminino)**
+- Cálculo automático do IMC
+- Classificação com base em **faixas de gordura corporal**:
+  - **Essencial**
+  - **Atleta**
+  - **Fitness**
+  - **Média (normal)**
+  - **Acima do ideal**
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/Peobadaro/calcule_IMC_pedrop.git
-```
+## 📸 Interface
 
-2. Instale as dependências:
-```bash
-npm install
-```
+> Adicione aqui um print da aplicação após o deploy:
 
-3. Inicie o servidor de desenvolvimento:
-```bash
-npm run dev
-```
-
-4. Acesse a aplicação em `http://localhost:5173`
-
-## Classificações de Gordura Corporal
-
-### Homens
-- Essencial: 2-5%
-- Atleta: 6-13%
-- Fitness: 14-17%
-- Média (normal): 18-24%
-- Acima do ideal: >25%
-
-### Mulheres
-- Essencial: 10-13%
-- Atleta: 14-20%
-- Fitness: 21-24%
-- Média (normal): 25-31%
-- Acima do ideal: >32%
-
-## Tecnologias Utilizadas
-
-- React
-- Vite
-- Emotion (styled-components)
-- Framer Motion
-- CSS Moderno
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com o projeto através de pull requests ou reportando issues. 
